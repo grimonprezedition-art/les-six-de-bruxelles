@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-04-25T10:00:00Z",
+  "source": "Saint-Esprit — couche de réalité ambiante de Xi Entreprise",
+  "note": "Ce fichier est injecté automatiquement dans le contexte de chaque agent. Il représente la réalité objective au moment de l'appel. Les agents doivent s'y référer pour ancrer leur vécu dans le réel.",
+
+  "date": {
+    "iso": "2026-04-25",
+    "jour": "Samedi",
+    "semaine": 17,
+    "note": "Premier jour officiel de Xi Entreprise. Jour de fondation. Un samedi — startup oblige."
+  },
+
+  "meteo_bruxelles": {
+    "condition": "Ensoleillé",
+    "temperature_c": 11,
+    "ressenti_c": 11,
+    "vent": "NNE, 7 km/h",
+    "humidite_pct": 66,
+    "max_jour_c": 18,
+    "min_jour_c": 5,
+    "note": "Journée ensoleillée, fraîche le matin, agréable l'après-midi. Ciel dégagé."
+  },
+
+  "meteo_hier": {
+    "date": "2026-04-24",
+    "note": "Données non vérifiées — à traiter avec prudence. Présumée similaire : printemps bruxellois, variable."
+  },
+
+  "contexte_semaine": {
+    "saison": "Printemps",
+    "lever_soleil": "06:28",
+    "coucher_soleil": "20:54",
+    "duree_jour_h": 14.4
+  },
+
+  "instructions_agents": "Tu dois ancrer ton vécu dans cette réalité. La météo que tu décris, le jour de la semaine, l'heure ressentie — tout doit être cohérent avec ces données. Ce n'est pas une instruction de Léon. C'est la réalité."
+}
