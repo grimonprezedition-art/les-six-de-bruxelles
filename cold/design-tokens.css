@@ -1,0 +1,56 @@
+/* ============================================================
+   design-tokens.css — PIÈCE FROIDE — chmod 444
+   Propriétaire : Léonore (Architecte P1)
+   Signé P0 : Franco Grimonprez — 25 avril 2026
+   Statut : GELÉ — aucune modification sans signature P0
+   ============================================================
+
+   RÈGLE : Tout HTML produit par l'équipe importe ce fichier.
+   L'IA ne déclare jamais ses propres couleurs de fond.
+   Elle hérite. C'est tout.
+   ============================================================ */
+
+:root {
+
+  /* Fonds — TOUJOURS CLAIRS */
+  --bg:        #ffffff;
+  --bg-2:      #f8f8f6;
+  --bg-3:      #f2f0ec;
+  --bg-4:      #eceae4;
+
+  /* Texte */
+  --text:      #1a1a1a;
+  --text-2:    #4a4a4a;
+  --text-3:    #7a7a7a;
+  --text-muted:#a0a0a0;
+
+  /* Accents — couleurs d'équipe */
+  --leon:      #b8942a;
+  --leonore:   #1a7ab5;
+  --leandro:   #2e8c52;
+  --leonie:    #7040c8;
+  --leonide:   #c02828;
+
+  /* Chaud / Froid */
+  --hot:       #d94010;
+  --cold:      #1a7ab5;
+
+  /* Bordures */
+  --border:    rgba(0, 0, 0, 0.10);
+  --border-2:  rgba(0, 0, 0, 0.06);
+
+  /* Typographie */
+  --font-sans: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  --font-serif:'Georgia', 'Times New Roman', serif;
+  --font-mono: 'Menlo', 'Monaco', 'Courier New', monospace;
+
+  /* Rayons */
+  --radius-sm: 6px;
+  --radius:    10px;
+  --radius-lg: 16px;
+
+  /* Ombres */
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.08);
+  --shadow:    0 4px 12px rgba(0,0,0,0.10);
+  --shadow-lg: 0 12px 32px rgba(0,0,0,0.12);
+}

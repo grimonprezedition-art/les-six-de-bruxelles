@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!--
+  SKELETON.html — PIÈCE FROIDE
+  Propriétaire : Léonie (Planificateur P3)
+  Signé P0 : Franco Grimonprez — 25 avril 2026
+  Statut : GELÉ — aucune modification sans signature P0
+
+  RÈGLE : L'IA remplit les [[PLACEHOLDERS]].
+  Elle ne touche pas au <head>, aux variables CSS, au fond.
+  Le fond est blanc. Il le sera toujours.
+-->
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>[[TITRE]]</title>
+
+  <!-- PIÈCE FROIDE — import obligatoire, non modifiable par l'IA -->
+  <link rel="stylesheet" href="/cold/design-tokens.css">
+
+  <style>
+    /* BASE — non modifiable */
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);        /* blanc — toujours */
+      color: var(--text);
+      font-family: var(--font-sans);
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    a { color: inherit; }
+    img { max-width: 100%; display: block; }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+
+    /* HEADER — structure fixe */
+    .site-header {
+      border-bottom: 1px solid var(--border);
+      padding: 1.5rem 0;
+    }
+    .site-header .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .site-logo {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--text);
+      letter-spacing: -0.02em;
+    }
+
+    /* MAIN — l'IA travaille ici */
+    main { padding: 4rem 0; }
+
+    /* FOOTER — structure fixe */
+    .site-footer {
+      border-top: 1px solid var(--border);
+      padding: 2rem 0;
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      text-align: center;
+    }
+
+    /* ============================================================
+       ZONE IA — L'IA peut ajouter des règles CSS ICI UNIQUEMENT
+       Contrainte : pas de background, background-color sur body,
+       html, ou tout élément de fond global.
+       ============================================================ */
+    [[STYLES_IA]]
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="site-logo">[[NOM_SITE]]</div>
+      <nav>[[NAVIGATION]]</nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      [[CONTENU_PRINCIPAL]]
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      [[CONTENU_FOOTER]]
+    </div>
+  </footer>
+
+  <script>
+    /* ============================================================
+       ZONE IA — scripts autorisés ici
+       ============================================================ */
+    [[SCRIPTS_IA]]
+  </script>
+
+</body>
+</html>
